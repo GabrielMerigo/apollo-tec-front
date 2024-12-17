@@ -1,6 +1,6 @@
 # JP Créditos e seguros
 
-Este projeto é uma aplicação web em desenvolvimento, construída com React e Vite para a construção e desenvolvimento da interface de usuário. O projeto inclui um menu lateral com navegação para diferentes seções e está estruturado para fornecer uma interface intuitiva e responsiva.
+Este projeto é uma aplicação web em desenvolvimento, construída com React e Vite para a construção e desenvolvimento da interface de usuário. O projeto inclui um menu lateral com navegação para diferentes seções e está estruturado para fornecer uma interface intuitiva e responsiva
 
 ## Estrutura do Projeto
 
