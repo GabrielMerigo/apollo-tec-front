@@ -32,7 +32,7 @@ export const Leads = () => {
             onImport={() => null}
             title="Leads"
             buttonLabel="Adicionar Lead"
-            onAdd={() => navigate("adicionar")}
+            onAdd={() => navigate("/createLeads")}
             onFilter={() => null}
             onToggle={() =>
               setToogleView((state) =>

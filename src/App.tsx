@@ -21,6 +21,7 @@ import { BankCounterEdition } from "./pages/BankCounterEdition/BankCounterEditio
 import { ProcessCreation } from "./pages/ProcessCreation/ProcessCreation";
 import { ProcessEdition } from "./pages/ProcessEdition/ProcessEdition";
 import { Leads } from "./pages/Leads";
+import { LeadsForm } from "./pages/LeadsForm";
 
 const App: React.FC = () => {
   const windowSize = useWindowSize();
@@ -63,6 +64,7 @@ const App: React.FC = () => {
 
             <Route path="/clientes" element={<Clients />} />
             <Route path="/leads" element={<Leads />} />
+            <Route path="/createLeads" element={<LeadsForm />} />
             <Route path="/tipos-de-processos" element={<ProcessesTypes />} />
           </Route>
         </Routes>
