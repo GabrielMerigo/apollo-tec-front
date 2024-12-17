@@ -28,7 +28,7 @@ export const LeadsForm = () => {
     "Viseu",
   ];
 
-  const onSubmit = (data) => {
+  const onSubmit = (data: unknown) => {
     console.log("Dados do formulário:", data);
   };
 
