@@ -1,0 +1,32 @@
+.nav-item {
+  cursor: pointer;
+  display: flex;
+  padding: 20px;
+  height: 50px;
+  align-items: center;
+  font-weight: 500;
+}
+
+.accordion,
+.accordion-button,
+.accordion-item {
+  --bs-accordion-border-color: transparent;
+}
+
+.active-item {
+  background-color: #fdf5e7;
+}
+.accordion-button {
+  border: none;
+  box-shadow: none;
+}
+
+.accordion-body {
+  border: none;
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+  --bs-accordion-active-bg: white;
+}

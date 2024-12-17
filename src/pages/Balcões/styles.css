@@ -1,0 +1,38 @@
+.table {
+  --bs-table-bg: transparent !important;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #ececee !important;
+}
+
+.bg-success {
+  background-color: #eafdee;
+}
+
+.bg-light {
+  background-color: #ececee;
+}
+
+.text-success {
+  color: #147129 !important;
+}
+
+.text-muted {
+  color: #2a2a2a !important;
+}
+
+th {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 19px 18px 19px 18px;
+}
+
+td {
+  padding: 19px;
+}
+
+thead {
+  background-color: #ffff;
+  border-radius: 12px 12px 0 0;
+}

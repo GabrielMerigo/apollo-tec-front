@@ -1,0 +1,45 @@
+.form-control {
+}
+
+.bank-details-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+  border-radius: 16px;
+  padding: 40px 32px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.header-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  align-items: center;
+}
+
+.form-section-header {
+  grid-column: 1 / span 2;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.textarea-group {
+  grid-column: 1 / span 2;
+}
+
+.form-select {
+  height: 32px;
+}
+
+@media (max-width: 768px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+}

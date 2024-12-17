@@ -1,0 +1,52 @@
+.toggle-switch-container {
+  width: 75px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #e0e0e0;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1px;
+  overflow: hidden;
+}
+
+.toggle-switch-background {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 36px;
+  height: 36px;
+  background-color: #fff;
+  border-radius: 6px;
+  transition: left 0.3s ease-in-out;
+  z-index: 0;
+}
+
+.toggle-switch-background.right-active {
+  left: 37px;
+}
+
+.toggle-icon-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.toggle-icon {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  color: #8c8e90;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+.toggle-icon.active {
+  color: #000;
+}

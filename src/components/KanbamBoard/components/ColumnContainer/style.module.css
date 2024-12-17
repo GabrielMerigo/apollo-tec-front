@@ -1,0 +1,62 @@
+.container {
+  width: 322px;
+  max-height: calc(100vh - 25vh);
+  border-radius: 16px;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  overflow: hidden;
+  border: 2px solid transparent;
+  transition: border 0.2s ease-in, transform 0.2s ease-in-out;
+
+  &:hover {
+    border: 2px solid #2c2c2c3a;
+    transform: scale(1.02);
+  }
+}
+
+.cardContainer {
+  width: 100%;
+
+  overflow-y: auto;
+  padding: 0 10px;
+  border-radius: 16px;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  position: relative;
+}
+
+.cardContainer::-webkit-scrollbar {
+  width: 4px;
+  height: 90%;
+}
+
+.cardContainer::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.cardContainer::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.247);
+
+  border-radius: 4px;
+}
+
+.cardContainer::-webkit-scrollbar-thumb:hover {
+  background-color: #f6c143;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.transformEffect {
+  transition: transform 0.3s ease-in-out;
+}

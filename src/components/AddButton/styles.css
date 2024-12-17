@@ -1,0 +1,10 @@
+.add-button {
+  background-color: #f6c143 !important;
+  color: #123647 !important;
+  height: 40px;
+}
+
+.add-button:hover {
+  background-color: #f3d183 !important;
+  color: #123647 !important;
+}
